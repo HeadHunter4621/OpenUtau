@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.6.11819.183 stable
+VisualStudioVersion = 18.6.11819.183
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CC070AB-64DC-4C02-89E7-D8E5EC91A492}"
 	ProjectSection(SolutionItems) = preProject
@@ -26,7 +26,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenUtau", "OpenUtau\OpenUt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenUtau.Plugin.Builtin", "OpenUtau.Plugin.Builtin\OpenUtau.Plugin.Builtin.csproj", "{D24740E1-CC43-4226-A573-59C013FE50A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPhonemizer", "GenericPhonemizer\GenericPhonemizer.csproj", "{FE6630A1-BDD5-4C65-97BD-D329C583D370}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSyllableBasedPhonemizer", "..\OU-Generic-Syllable-Based-Phonemizer\GenericSyllableBasedPhonemizer\GenericSyllableBasedPhonemizer.csproj", "{F8A67035-AA14-CD7F-DF7C-1ED574ABCA7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,10 +50,10 @@ Global
 		{D24740E1-CC43-4226-A573-59C013FE50A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D24740E1-CC43-4226-A573-59C013FE50A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D24740E1-CC43-4226-A573-59C013FE50A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FE6630A1-BDD5-4C65-97BD-D329C583D370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FE6630A1-BDD5-4C65-97BD-D329C583D370}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FE6630A1-BDD5-4C65-97BD-D329C583D370}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FE6630A1-BDD5-4C65-97BD-D329C583D370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8A67035-AA14-CD7F-DF7C-1ED574ABCA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8A67035-AA14-CD7F-DF7C-1ED574ABCA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8A67035-AA14-CD7F-DF7C-1ED574ABCA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8A67035-AA14-CD7F-DF7C-1ED574ABCA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
