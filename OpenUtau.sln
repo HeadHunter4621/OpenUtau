@@ -26,10 +26,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenUtau", "OpenUtau\OpenUt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenUtau.Plugin.Builtin", "OpenUtau.Plugin.Builtin\OpenUtau.Plugin.Builtin.csproj", "{D24740E1-CC43-4226-A573-59C013FE50A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnXSampaPhonemizerPlus", "EnXSampaPhonemizerPlus\EnXSampaPhonemizerPlus.csproj", "{9A4789AA-8E15-4A22-9C97-D3DDAFA1D690}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JA_CVVX", "JapaneseCVVXPhonemizer\JA_CVVX.csproj", "{83A802BC-EF4F-9A58-B58F-5B930BFAFC5A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSyllableBasedPhonemizer", "GenericSyllableBasedPhonemizer\GenericSyllableBasedPhonemizer.csproj", "{61E62C45-6CE9-0275-ED91-C8F059C7A40C}"
 EndProject
 Global
@@ -54,14 +50,6 @@ Global
 		{D24740E1-CC43-4226-A573-59C013FE50A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D24740E1-CC43-4226-A573-59C013FE50A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D24740E1-CC43-4226-A573-59C013FE50A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A4789AA-8E15-4A22-9C97-D3DDAFA1D690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A4789AA-8E15-4A22-9C97-D3DDAFA1D690}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A4789AA-8E15-4A22-9C97-D3DDAFA1D690}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A4789AA-8E15-4A22-9C97-D3DDAFA1D690}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83A802BC-EF4F-9A58-B58F-5B930BFAFC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83A802BC-EF4F-9A58-B58F-5B930BFAFC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83A802BC-EF4F-9A58-B58F-5B930BFAFC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83A802BC-EF4F-9A58-B58F-5B930BFAFC5A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{61E62C45-6CE9-0275-ED91-C8F059C7A40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{61E62C45-6CE9-0275-ED91-C8F059C7A40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61E62C45-6CE9-0275-ED91-C8F059C7A40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
