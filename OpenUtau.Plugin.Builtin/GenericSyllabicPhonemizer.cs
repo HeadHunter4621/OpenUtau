@@ -1,16 +1,19 @@
-﻿using OpenUtau.Api;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using OpenUtau.Api;
 using OpenUtau.Core.Ustx;
-using OpenUtau.Plugin.Builtin;
 using Serilog;
 using System.Text.RegularExpressions;
 
-namespace GenericSyllableBasedPhonemizer {
-    [Phonemizer("Generic Syllable-Based Phonemizer", "GEN SYL", "HeadHunter4621")]
+namespace OpenUtau.Plugin.Builtin {
+    [Phonemizer("Generic Syllabic Phonemizer", "GEN SYLLABIC", "HeadHunter4621")]
     // Nearly all of this code is from Cadlaxa's FIL VCV & CVVC phonemizer.
-    // The default template contains X-SAMPA phonemes but can (and should) be modified to fit your voicebank.
+    // The default template contains ARPAbet and romaji phonemes but can (and should) be modified to fit your voicebank.
     public class GenericSyllablePhonemizer : SyllableBasedPhonemizer {
         protected override string YamlFileName => "generic-phonemizer.yaml";
-        protected override byte[] YamlTemplate => Data.Resources.generic_template;
+        protected override byte[] YamlTemplate => Data.Resources.generic_syllabic_template;
 
         public GenericSyllablePhonemizer() {
 

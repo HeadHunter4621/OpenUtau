@@ -1,35 +1,49 @@
 %YAML 1.2
 ---
+  # This dictionary is meant to be modified (such as adding and removing phonemes) to fit the voicebank that is using it. 
+  # The existing set of phonemes are just examples.
+
 symbols:
-  - {symbol: aa, type: vowel}
-  - {symbol: ae, type: vowel}
-  - {symbol: ah, type: vowel}
-  - {symbol: ao, type: vowel}
-  - {symbol: aw, type: vowel}
-  - {symbol: ax, type: vowel}
-  - {symbol: ay, type: vowel}
+  # ARPAbet Vowels
+  - { symbol: aa, type: vowel }
+  - { symbol: ae, type: vowel }
+  - { symbol: ah, type: vowel }
+  - { symbol: ao, type: vowel }
+  - { symbol: aw, type: vowel }
+  - { symbol: ax, type: vowel }
+  - { symbol: ay, type: vowel }
+  - { symbol: eh, type: vowel }
+  - { symbol: er, type: vowel }
+  - { symbol: ey, type: vowel }
+  - { symbol: ow, type: vowel }
+  - { symbol: oy, type: vowel }
+  - { symbol: uh, type: vowel }
+  - { symbol: uw, type: vowel }
+
+  # Romaji Vowels
+  - { symbol: a, type: vowel }
+  - { symbol: i, type: vowel }
+  - { symbol: u, type: vowel }
+  - { symbol: e, type: vowel }
+  - { symbol: o, type: vowel }
+  - {symbol: N, type: vowel }
+
+  # ARPAbet Consonants
   - {symbol: b, type: stop}
   - {symbol: ch, type: affricate}
   - {symbol: d, type: stop}
   - {symbol: dh, type: fricative}
-  - {symbol: dr, type: fricative}
   - {symbol: dx, type: tap}
-  - {symbol: eh, type: vowel}
-  - {symbol: er, type: vowel}
-  - {symbol: ey, type: vowel}
   - {symbol: f, type: fricative}
   - {symbol: g, type: stop}
+  - {symbol: h, type: aspirate}
   - {symbol: hh, type: aspirate}
-  - {symbol: ih, type: vowel}
-  - {symbol: iy, type: vowel}
   - {symbol: jh, type: affricate}
   - {symbol: k, type: stop}
   - {symbol: l, type: liquid}
   - {symbol: m, type: nasal}
   - {symbol: n, type: nasal}
   - {symbol: ng, type: nasal}
-  - {symbol: ow, type: vowel}
-  - {symbol: oy, type: vowel}
   - {symbol: p, type: stop}
   - {symbol: q, type: stop}
   - {symbol: r, type: liquid}
@@ -37,14 +51,26 @@ symbols:
   - {symbol: sh, type: fricative}
   - {symbol: t, type: stop}
   - {symbol: th, type: fricative}
-  - {symbol: tr, type: fricative}
-  - {symbol: uh, type: vowel}
-  - {symbol: uw, type: vowel}
   - {symbol: v, type: fricative}
   - {symbol: w, type: semivowel}
   - {symbol: y, type: semivowel}
   - {symbol: z, type: fricative}
   - {symbol: zh, type: fricative}
+
+  # Romaji Consonants
+  - { symbol: by, type: stop }
+  - { symbol: dy, type: stop }
+  - { symbol: gy, type: stop }
+  - { symbol: ky, type: stop }
+  - { symbol: my, type: nasal }
+  - { symbol: ny, type: nasal }
+  - { symbol: py, type: stop }
+  - { symbol: ry, type: tap }
+  - { symbol: ty, type: stop }
+  - { symbol: j, type: fricative }
+  - { symbol: ts, type: affricate }
+  - { symbol: cl, type: stop }
+  
 entries:
   - grapheme: openutau
-    phonemes: [ow, p, eh, n, w, uw, t, ah, w, uw]
+    phonemes: [ow, p, ax, n, q, uw, t, aw]
