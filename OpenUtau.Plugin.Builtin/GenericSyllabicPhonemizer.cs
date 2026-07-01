@@ -9,8 +9,8 @@ using System.Text.RegularExpressions;
 
 namespace OpenUtau.Plugin.Builtin {
     [Phonemizer("Generic Syllabic Phonemizer", "GEN SYLLABIC", "HeadHunter4621")]
-    // Nearly all of this code is from Cadlaxa's FIL VCV & CVVC phonemizer.
-    // The default template contains ARPAbet and romaji phonemes but can (and should) be modified to fit your voicebank.
+    // Contributed by HeadHunter4621, base code is the FIL VCV & CVVC phonemizer.
+    // The default template contains ARPAbet and romaji phonemes but can be easily modified to fit each voicebank.
     public class GenericSyllablePhonemizer : SyllableBasedPhonemizer {
         protected override string YamlFileName => "generic-phonemizer.yaml";
         protected override byte[] YamlTemplate => Data.Resources.generic_syllabic_template;
