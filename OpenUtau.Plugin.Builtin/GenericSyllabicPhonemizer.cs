@@ -8,7 +8,7 @@ using Serilog;
 using System.Text.RegularExpressions;
 
 namespace OpenUtau.Plugin.Builtin {
-    [Phonemizer("Generic Syllabic Phonemizer", "GEN SYLLABIC", "HeadHunter4621")]
+    [Phonemizer("Generic Syllabic Phonemizer", "GEN SYL", "HeadHunter4621")]
     // Contributed by HeadHunter4621, base code is the FIL VCV & CVVC phonemizer.
     // The default template contains ARPAbet and romaji phonemes but can be easily modified to fit each voicebank.
     public class GenericSyllablePhonemizer : SyllableBasedPhonemizer {
