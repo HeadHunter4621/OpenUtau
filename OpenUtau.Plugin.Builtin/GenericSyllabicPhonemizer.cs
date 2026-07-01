@@ -11,11 +11,11 @@ namespace OpenUtau.Plugin.Builtin {
     [Phonemizer("Generic Syllabic Phonemizer", "GEN SYL", "HeadHunter4621")]
     // Contributed by HeadHunter4621, base code is the FIL VCV & CVVC phonemizer.
     // The default template contains ARPAbet and romaji phonemes but can be easily modified to fit each voicebank.
-    public class GenericSyllablePhonemizer : SyllableBasedPhonemizer {
+    public class GenericSyllabicPhonemizer : SyllableBasedPhonemizer {
         protected override string YamlFileName => "generic-phonemizer.yaml";
         protected override byte[] YamlTemplate => Data.Resources.generic_syllabic_template;
 
-        public GenericSyllablePhonemizer() {
+        public GenericSyllabicPhonemizer() {
 
             this.vowels = Array.Empty<string>();
             this.consonants = Array.Empty<string>();
